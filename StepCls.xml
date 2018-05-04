@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test" >
+    <test name="Test 1">
+        <classes>
+           <class name="login.Login"></class>
+        </classes>
+      </test>
+      
+      <test name="Test 2">
+        <classes>
+           <class name="bulkConsignment.uploadConsignment"></class>
+        </classes>
+    </test>
+      
+       <test name="Test 3">
+        <classes>
+           <class name="accountSettings.UploadImage"></class>
+         </classes>
+    </test>
+    
+    <test name="Test 4">
+        <classes>
+           <class name="accountSettings.UpdateAccountDetails"></class>
+        </classes>
+    </test>
+      
+    <test name="Test 5">
+        <classes>
+           <class name="login.FieldValidations"></class>
+        </classes>
+    </test>
+    
+     <test name="Test 6">
+        <classes>
+           <class name="accountSettings.SettingsFieldValidation"></class>
+        </classes>
+    </test>
+    
+    
+</suite>     

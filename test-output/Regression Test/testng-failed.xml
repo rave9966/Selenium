@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test]">
+  <test name="Test Cases(failed)">
+    <classes>
+      <class name="login.Login">
+        <methods>
+          <include name="click_OTPSubmit"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- login.Login -->
+      <class name="login.FieldValidations">
+        <methods>
+          <include name="navigate_OTPScreen"/>
+          <include name="verify_OTPValidationMsg"/>
+          <include name="valid_OTP"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- login.FieldValidations -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->
